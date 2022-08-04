@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Bungee+Hairline&family=Comfortaa:wght@300&family=Inconsolata:wght@300&family=Josefin+Sans:ital,wght@1,100&family=Klee+One&family=Lato:wght@300&family=Orbitron&family=Oswald:wght@200&family=Roboto:wght@100&family=Vollkorn&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 100%;
+    height: 170vh;
+    position: relative;
+    text-align: center;
+    background: url(/Images/careerphoto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: amatic sc;
+}
+
+p {
+    font-family: amatic sc;
+    font-size: 20px;
+}
+
+.p1 {
+    font-family: amatic sc;
+    font-size: 25px;
+}
+
+.string {
+    width: 5px;
+    height: 100vh;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    background-color: rgb(150, 95, 12);
+    border-radius: 20px;
+}
+
+.box1 {
+    width: 500px;
+    height: 170px;
+    background-color: rgb(233, 177, 73);
+    position: relative;
+    border-radius: 20px;
+    top: 70px;
+    left: 100px;
+    transition: 0.5s;
+}
+
+.foto1 {
+    width: 150px;
+    height: auto;
+    float: right;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.box2 {
+    width: 500px;
+    height: 170;
+    background-color: rgb(202, 154, 64);
+    position: relative;
+    border-radius: 20px;
+    top: 80px;
+    right: 100px;
+    float: right;
+}
+
+.foto2 {
+    width: 150px;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.box3 {
+    width: 500px;
+    height: 170px;
+    background-color: rgb(240, 197, 119);
+    position: relative;
+    border-radius: 20px;
+    top: 260px;
+    left: 100px;
+}
+
+.foto3 {
+    width: 150px;
+    height: auto;
+    float: right;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.back {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 150px;
+    height: auto;
+    transition: 0.5s;
+}
+.back:hover {
+    transform: translateY(-20px);
+}

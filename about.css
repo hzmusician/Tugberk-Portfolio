@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Anton&family=Bungee+Hairline&family=Comfortaa:wght@300&family=Inconsolata:wght@300&family=Josefin+Sans:ital,wght@1,100&family=Klee+One&family=Lato:wght@300&family=Orbitron&family=Oswald:wght@200&family=Roboto:wght@100&family=Vollkorn&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    background: url(/Images/careerphoto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: amatic sc;
+}
+
+p {
+    width: 450px;
+    height: 280px;
+    background-color: rgb(255, 183, 50);
+    position: absolute;
+    top: 250px;
+    left: 30%;
+    padding: 50px;
+    border-radius: 30px;
+    font-family: amatic sc;
+    font-size: 17px;
+    transition: 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+}
+p:hover {
+    width: 650px;
+    height: 250px;
+    font-size: 20px;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.tug {
+    position: absolute;
+    width: 200px;
+    border-radius: 50%;
+    z-index: 1;
+    top: 100px;
+    right: 42%;
+    box-shadow: 5px 5px 5px #111;
+}
+
+.back {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 150px;
+    height: auto;
+    transition: 0.5s;
+}
+.back:hover {
+    transform: translateY(-20px);
+}
